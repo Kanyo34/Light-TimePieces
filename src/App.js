@@ -22,9 +22,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <header className="App-header">
-        <h1>Light TimePieces</h1>
-      </header>
+    
         <Routes>
           <Route path='/Signin'element={<SignIn/>}/>
           <Route path='/Signup'element={<SignUp/>}/>
