@@ -1,6 +1,8 @@
 import React from 'react'
 import './AboutUs.css';
 import NavBar from './NavBar';
+import Footer from "./Footer";
+
 const AboutUs = () => {
   return (
     <div>
@@ -62,6 +64,7 @@ const AboutUs = () => {
                     <h3>Heritage</h3>
                     <p>We preserve traditional watchmaking skills while continuously innovating for the future.</p>
                 </div>
+              <Footer />
             </div>
         </section>
     </div>
